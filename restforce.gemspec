@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   }
 
   gem.required_ruby_version = '>= 3.1'
-
+  gem.add_dependency 'json', '>= 2.0'
   gem.add_dependency 'faraday', '< 3.0.0', '>= 1.1.0'
   gem.add_dependency 'faraday-follow_redirects', '<= 0.3.0', '< 1.0.0'
   gem.add_dependency 'faraday-multipart', '>= 1.0.0', '< 2.0.0'
